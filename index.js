@@ -4,7 +4,7 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-app.post('/', function(request, response) {
+app.all('/', function(request, response) {
   response.send(metal());
 });
 
