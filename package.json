@@ -1,0 +1,28 @@
+{
+  "name": "slack-metal",
+  "version": "1.0.0",
+  "description": "Slack integration to print a metal name",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.12.4",
+    "metal-name": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trott/slack-metal.git"
+  },
+  "keywords": [
+    "slack",
+    "metal"
+  ],
+  "author": "Rich Trott <rtrott@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Trott/slack-metal/issues"
+  },
+  "homepage": "https://github.com/Trott/slack-metal#readme"
+}
